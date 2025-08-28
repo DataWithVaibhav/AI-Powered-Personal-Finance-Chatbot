@@ -1,204 +1,142 @@
-## 📄 AI_USAGE.md
+📄 AI Tools Usage in Finance Chatbot
+🤖 AI Tools Utilized
+1. ChatGPT (OpenAI)
 
-```markdown
-# AI Tools Usage in Finance Chatbot
+Purpose: Code generation, architecture design, debugging
 
-## 🤖 AI Tools Utilized
+Usage Pattern: Iterative prompts with code examples and errors
 
-### 1. ChatGPT (OpenAI)
-- **Purpose**: Code generation, architecture design, and debugging assistance
-- **Usage Pattern**: Iterative prompting with specific code examples and error resolution
-- **Key Contributions**:
-  - FastAPI backend structure and endpoint implementation
-  - React component patterns and state management
-  - Database model design with SQLAlchemy
-  - API client implementation in frontend
-  - Error handling patterns and validation logic
+Key Contributions:
 
-### 2. GitHub Copilot
-- **Purpose**: Code completion, snippet generation, and boilerplate reduction
-- **Usage Pattern**: Inline code suggestions and function generation
-- **Key Contributions**:
-  - Utility function implementations
-  - React hook patterns and useEffect optimization
-  - CSS styling suggestions and layout improvements
-  - Error handling patterns and validation logic
+FastAPI backend endpoints
 
-## 🎯 Prompt Strategies
+React component structures & state management
 
-### Effective Prompt Patterns
+Database models with SQLAlchemy
 
-1. **Contextual Prompts with Specific Requirements**:
-I'm building a finance chatbot with FastAPI backend and React frontend.
-Create a CSV upload endpoint that processes transaction data with
-these columns: date, description, amount, category. Include:
+Frontend API client & error handling
 
-Date parsing for multiple formats (DD-MM-YYYY, YYYY-MM-DD)
+Validation and error handling logic
 
-Category normalization using a predefined alias system
+2. GitHub Copilot
 
-Merchant extraction from description
+Purpose: Inline code completion, boilerplate reduction
 
-Error handling for invalid files
+Usage Pattern: Suggestions and function generation
 
-Response with processed row count
+Key Contributions:
 
-text
+Utility functions & React hooks
 
-2. **Iterative Refinement**:
-First version: Basic CSV upload with simple parsing
-Second iteration: Add date parsing for multiple formats
-Third iteration: Add AI categorization for uncategorized transactions
-Fourth iteration: Add proper error handling and validation
+CSS & layout suggestions
 
-text
+Error handling patterns
 
-3. **Error-Focused Prompts**:
-I'm getting this pandas error when processing dates:
-"Unknown string format: 15/01/2024"
-How can I handle multiple date formats in my CSV parser?
-Provide a function that tries multiple formats before defaulting to today.
+🎯 Prompt Strategies
 
-text
+Contextual Prompts: Provide project type, data structure, and expected behavior.
+Example: CSV upload endpoint with multiple date formats, merchant extraction, category normalization, error handling, and response with row count.
 
-4. **Architecture Consultation**:
-What's the best way to structure a React + FastAPI application for
-financial data visualization with these requirements:
+Iterative Refinement: Build in versions, adding functionality step by step.
+Example: Start with basic CSV parsing → multiple date formats → AI categorization → comprehensive error handling.
 
-CSV upload and processing
+Error-Focused Prompts: Share specific errors to get targeted solutions.
+Example: Handle pandas Unknown string format by trying multiple date formats.
 
-Multiple chart types (pie, bar, line)
+Architecture Consultation: Ask for best practices on React + FastAPI with multi-chart visualization, chat interface, and session support.
 
-Natural language chat interface
+💻 AI-Generated Code Validation
+Validation Steps
 
-Budget management
+Manual code review line by line
 
-Session support for different datasets
+Functional testing with sample data
 
-text
+Integration testing of frontend-backend flow
 
-## 💻 AI-Generated Code Validation
+Performance assessment
 
-### Validation Process
+Modifications to AI Output
 
-1. **Manual Code Review**: Every AI-generated snippet was reviewed line by line for correctness and security
-2. **Testing**: Comprehensive testing of all generated functionality with sample data
-3. **Integration Testing**: Ensuring components work together correctly
-4. **Performance Testing**: Checking for bottlenecks or inefficiencies in generated code
+Enhanced date parsing and edge case handling
 
-### Modifications Made to AI Output
+Added comprehensive error handling & validation
 
-1. **Date Parsing Logic**: Enhanced to handle more CSV date formats and edge cases
-2. **Error Handling**: Added comprehensive error handling beyond initial suggestions
-3. **Caching Issues**: Implemented cache-busting mechanisms for data freshness
-4. **UI Refinements**: Improved user interface and experience beyond initial generated code
-5. **Security Enhancements**: Added input validation and SQL injection protection
-6. **Performance Optimizations**: Improved database queries and frontend rendering
+Cache-busting for data freshness
 
-## 📊 AI Contribution Areas
+UI/UX refinements
 
-### High AI Assistance (70-80% AI generated)
-- **Boilerplate Code**: API endpoints, React component structures
-- **Database Models**: SQLAlchemy model definitions and relationships
-- **Utility Functions**: Date parsing, text normalization, merchant extraction
-- **Configuration Files**: package.json, requirements.txt structure
+Security hardening (input validation, SQL injection protection)
 
-### Moderate AI Assistance (40-60% AI generated)
-- **Business Logic**: Transaction categorization algorithms and rule-based systems
-- **API Client**: Frontend API integration code and error handling
-- **Chart Components**: Data visualization logic and component structure
-- **State Management**: React hook patterns and data flow
+Performance optimization (queries & rendering)
 
-### Minimal AI Assistance (10-30% AI generated)
-- **Custom Business Rules**: Specific finance domain logic and calculations
-- **UI/UX Design**: Visual design, layout, and user experience decisions
-- **Project Architecture**: Overall system design and component structure
-- **Performance Optimization**: Database indexing and query optimization
+📊 AI Contribution Levels
+Area	AI Assistance
+Boilerplate code, database models, utility functions	High (70-80%)
+Business logic, API integration, chart components, state management	Moderate (40-60%)
+Custom rules, UI/UX design, project architecture, performance optimization	Minimal (10-30%)
+🔍 Specific AI-Generated Features
 
-## 🔍 Specific Prompts and Results
+CSV Processing Endpoint: Handles multiple date formats, merchant extraction, category normalization, SQLite storage, and error handling.
 
-### Example Prompt 1: CSV Processing Endpoint
-Create a FastAPI endpoint that accepts CSV uploads, processes the data with pandas,
-handles multiple date formats (DD-MM-YYYY, YYYY-MM-DD, MM/DD/YY), extracts merchants
-from descriptions, normalizes categories using a category alias system, and stores
-it in SQLite with SQLAlchemy. Include comprehensive error handling for invalid files
-and data validation, and return appropriate responses.
+NLP Categorization: TF-IDF + Naive Bayes classification with fallback to rules, supports incremental learning and model persistence.
 
-text
+React Visualization: Pie charts (category), line charts (income vs expenses), summary cards, top merchants bar chart with multiple views.
 
-**Result**: Generated the core CSV processing logic in `main.py` with proper error handling and validation.
+🧪 Testing AI Output
 
-### Example Prompt 2: NLP Integration
-Implement a simple NLP system that can categorize financial transactions based on
-description text. Use TF-IDF and Naive Bayes classification with fallback to
-rule-based matching when there's insufficient training data. Include model
-persistence to disk and incremental learning as more data becomes available.
+Unit tests for individual functions
 
-text
+Integration tests for component flow
 
-**Result**: Generated the AI categorization system in `main.py` with model training and prediction functions.
+Manual testing with real-world financial data
 
-### Example Prompt 3: React Visualization
-Create React components to display financial data as:
+Edge case testing (empty files, unusual date formats, invalid data)
 
-Category pie chart for expenses
+Common AI issues: missed edge cases, insufficient security & validation, performance inefficiencies, weak error handling.
 
-Monthly trend line chart for income vs expenses
+📈 Lessons Learned
 
-Income vs expenses summary cards
+What Worked Well
 
-Top merchants bar charts with two views: total spending and single payments
-Use modern React hooks, clean component structure, and proper data formatting.
+Rapid prototyping & boilerplate reduction
 
-text
+Learning new patterns & approaches
 
-**Result**: Generated the Charts.jsx component with multiple visualization types.
+Idea generation & coding consistency
 
-## 🧪 Testing AI Output
+Challenges
 
-### Validation Methods
+Context retention across multiple prompts
 
-1. **Unit Tests**: Test individual functions generated by AI with various inputs
-2. **Integration Tests**: Verify components work together correctly
-3. **Manual Testing**: Real-world usage testing with sample financial data
-4. **Edge Case Testing**: Testing with unusual date formats, empty files, invalid data
+Output quality varies
 
-### Common Issues Found in AI Output
+Technical debt from quick fixes
 
-1. **Edge Cases**: AI often missed unusual date formats or data edge cases
-2. **Security**: Needed to add additional input validation and sanitization
-3. **Performance**: Some suggestions were inefficient for large datasets
-4. **Error Handling**: Often insufficient error handling in initial suggestions
-5. **Data Validation**: Missing validation for financial data specifics
+Documentation gaps
 
-## 📈 Lessons Learned
+Limited testing suggestions from AI
 
-### What Worked Well
-1. **Rapid Prototyping**: AI dramatically accelerated initial development and prototyping
-2. **Boilerplate Reduction**: Eliminated repetitive coding tasks and setup
-3. **Learning Aid**: Helped understand new patterns and best practices
-4. **Idea Generation**: Suggested approaches not initially considered
-5. **Code Consistency**: Helped maintain consistent coding patterns
+✅ Best Practices Developed
 
-### Challenges
-1. **Context Limitations**: AI sometimes lost track of project context across multiple prompts
-2. **Quality Variability**: Output quality varied significantly between different prompts
-3. **Technical Debt**: Tendency to suggest quick fixes rather than robust solutions
-4. **Documentation**: Generated code often lacked comments and proper documentation
-5. **Testing**: AI rarely suggested comprehensive test cases
+Always review AI code line by line
 
-## ✅ Best Practices Developed
+Use iterative, focused prompting
 
-1. **Always Review**: Never deploy AI-generated code without thorough line-by-line review
-2. **Iterate Prompting**: Use multiple, specific prompts rather than one large prompt
-3. **Test Comprehensively**: AI code needs more testing than manually written code
-4. **Maintain Ownership**: Understand every line of AI-generated code before using it
-5. **Document Assumptions**: Clearly document what parts were AI-generated and why
+Test comprehensively
 
-## 🚀 Future AI Integration Plans
+Maintain full understanding & ownership of code
 
-1. **Advanced NLP**: Integrate more sophisticated language models for better chat understanding
-2. **Code Generation**: Use AI for test generation and documentation writing
-3. **Optimization**: AI-assisted performance optimization and refactoring
-4. **Accessibility**: AI-generated accessibility improvements and ARIA labels
-5. **Localization**: AI-assisted internationalization and localization support
+Document AI-generated sections & assumptions
+
+🚀 Future AI Integration Plans
+
+Advanced NLP for chat
+
+AI-assisted test & documentation generation
+
+Performance optimization & refactoring
+
+Accessibility improvements & ARIA labels
+
+Localization support
