@@ -1,224 +1,191 @@
-# Test Plan for Finance Chatbot
+📄 Finance Chatbot Test Plan
+🧪 Testing Strategy
 
-## 🧪 Testing Strategy
+Testing Levels
 
-### Testing Levels
-1. **Unit Testing**: Individual functions and components
-2. **Integration Testing**: Component interactions and API endpoints
-3. **System Testing**: End-to-end user workflows
-4. **Manual Testing**: User experience and edge cases
+Unit Testing: Verify individual functions and components
 
-### Test Environment
-- **Backend**: Python 3.8+, FastAPI, SQLite
-- **Frontend**: Node.js 14+, React 18, Chrome/Firefox browsers
-- **Testing Tools**: pytest, React Testing Library, Manual testing
-- **Test Data**: Sample CSV files with various formats and edge cases
+Integration Testing: Validate interactions between components and API endpoints
 
-## 🔧 Unit Tests
+System Testing: End-to-end workflows from CSV upload to chat responses
 
-### Backend Unit Tests
+Manual Testing: User experience, edge cases, and real-world scenarios
 
-#### CSV Processing Functions
-```python
+Test Environment
+
+Backend: Python 3.8+, FastAPI, SQLite
+
+Frontend: Node.js 14+, React 18, Chrome/Firefox browsers
+
+Testing Tools: pytest, React Testing Library, manual testing
+
+Test Data: Sample CSVs covering various formats, sizes, and edge cases
+
+🔧 Unit Tests
+Backend
+
+CSV Processing Functions
+
 def test_parse_csv_date():
-    """Test date parsing with various formats"""
-    # Test multiple date formats
-    assert parse_csv_date("15-01-2024") == date(2024, 1, 15)
-    assert parse_csv_date("2024-01-15") == date(2024, 1, 15)
-    assert parse_csv_date("01/15/2024") == date(2024, 1, 15)
-    assert parse_csv_date("15-01-24") == date(2024, 1, 15)
-    
-    # Test invalid dates fallback to today
+    """Test date parsing with multiple formats and fallback"""
+    assert parse_csv_date("15-01-2024") == date(2024,1,15)
+    assert parse_csv_date("2024-01-15") == date(2024,1,15)
+    assert parse_csv_date("01/15/2024") == date(2024,1,15)
+    assert parse_csv_date("15-01-24") == date(2024,1,15)
     today = date.today()
     assert parse_csv_date("invalid-date") == today
 
 def test_normalize_category():
-    """Test category normalization with aliases"""
     assert normalize_category("food") == "Food"
     assert normalize_category("GROCERIES") == "Food"
     assert normalize_category("uber ride") == "Transport"
     assert normalize_category("unknown") == "Unknown"
 
 def test_extract_merchant():
-    """Test merchant extraction from descriptions"""
     assert extract_merchant("AMAZON INDIA PVT LTD") == "Amazon India"
     assert extract_merchant("UBER *RIDE") == "Uber Ride"
     assert extract_merchant("") == "Unknown"
     assert extract_merchant("123!@#") == "Unknown"
+
+
 AI Categorization Tests
-python
+
 def test_ai_categorization():
     """Test AI-based transaction categorization"""
-    # Test with training data
-    # Test with unknown descriptions
-    # Test fallback to rule-based when no training data
-    # Test model persistence and loading
-Frontend Unit Tests
-API Client Tests
-javascript
-test('uploadCsv handles errors properly', async () => {
+    # Training data, unknown descriptions, fallback to rule-based
+    # Model persistence and incremental learning
+
+Frontend
+
+API Client
+
+test('uploadCsv handles errors', async () => {
   mockFetch.mockReject(new Error('Network error'));
   await expect(uploadCsv(testFile)).rejects.toThrow('Network error');
 });
 
-test('chat function formats request correctly', async () => {
+test('chat function formats request', async () => {
   await chat("How much spent on food?");
   expect(mockFetch).toHaveBeenCalledWith(expect.anything(), expect.objectContaining({
     method: 'POST',
     body: JSON.stringify({ question: "How much spent on food?" })
   }));
 });
-Component Tests
-javascript
-test('Uploader displays progress during upload', () => {
-  render(<Uploader onUploaded={mockCallback} />);
-  // Simulate file selection and upload progress
-  // Verify progress message updates
-});
 
-test('Chat component handles budget setting', async () => {
-  render(<Chat />);
-  // Test budget input and submission
-  // Verify API call is made correctly
-});
+
+Component Tests
+
+test('Uploader displays progress', () => { /* simulate upload, verify progress */ });
+test('Chat handles budget input', async () => { /* verify API call and UI update */ });
+
 🔗 Integration Tests
-API Endpoint Tests
-python
+
+API Endpoint
+
 def test_upload_csv_endpoint():
-    """Test complete CSV upload workflow"""
     client = TestClient(app)
-    
-    # Create test CSV data
     csv_data = "date,description,amount,category\n2024-01-15,Test Transaction,-100.0,Food"
-    
-    # Mock file upload
     response = client.post("/upload_csv", files={"file": ("test.csv", csv_data, "text/csv")})
-    
     assert response.status_code == 200
     assert response.json()["ok"] == True
     assert response.json()["rows"] == 1
-    
-    # Verify data actually inserted
-    transactions = db.query(Transaction).all()
-    assert len(transactions) == 1
-    assert transactions[0].category == "Food"
-Frontend-Backend Integration
-javascript
-test('complete upload and visualization flow', async () => {
-  // Mock successful CSV upload
-  // Mock subsequent data fetches for charts
-  // Verify components render with correct data
-  // Test that refresh callback works properly
+
+
+Frontend-Backend Flow
+
+test('upload and visualization', async () => {
+  // Mock CSV upload, fetch chart data, verify rendering and refresh
 });
+
 📋 Manual Test Cases
-CSV Upload Functionality
+CSV Upload
 Test Case	Steps	Expected Result
-Valid CSV Upload	1. Select valid CSV file
-2. Click Upload	Success message, data appears in charts
-Invalid CSV Format	1. Select non-CSV file
-2. Click Upload	Error message displayed
-Missing Required Columns	1. Upload CSV missing 'amount' column
-2. Click Upload	Specific error about missing column
-Large File Upload	1. Upload 10MB+ CSV file
-2. Click Upload	Progress indicator, successful processing
-Empty CSV File	1. Upload empty CSV
-2. Click Upload	Error message about empty file
+Valid CSV	Select & upload file	Success, charts updated
+Invalid CSV	Upload non-CSV	Error message
+Missing Columns	Upload CSV missing 'amount'	Specific column error
+Large File	Upload 10MB+	Progress indicator, success
+Empty CSV	Upload empty file	Error message
 Chat Functionality
 Test Case	Steps	Expected Result
-Category Spending Query	Ask "How much did I spend on food?"	Correct amount displayed with time context
-Top Expenses Query	Ask "Show my top 5 expenses"	List of 5 largest expenses with amounts
-Time-based Query	Ask "Last month's transportation spending"	Amount for transport category in previous month
-Unknown Query	Ask "What's the weather?"	Graceful fallback response
-Budget Query	Ask "What's my budget for food?"	Current food budget amount displayed
+Category Spending	Ask "How much did I spend on food?"	Correct amount displayed
+Top Expenses	Ask "Show my top 5 expenses"	List of 5 largest expenses
+Time-based Query	Ask "Last month's transport spending"	Correct category amount
+Unknown Query	Ask unrelated question	Graceful fallback
+Budget Query	Ask "What's my budget for food?"	Correct budget displayed
 Budget Management
 Test Case	Steps	Expected Result
-Set Budget	1. Select category
-2. Enter amount
-3. Click Set Budget	Budget appears in list, confirmation message
-Budget Alert	1. Set low budget
-2. Upload exceeding transactions
-3. Check alerts	Spending alert generated with overspend amount
-Edit Budget	1. Set new amount for existing category
-2. Click Set Budget	Budget updated, old value replaced
-Invalid Budget	1. Enter negative amount
-2. Click Set Budget	Error message, budget not set
+Set Budget	Select category, enter amount	Budget saved, confirmation
+Budget Alert	Exceed budget	Alert triggered with overspend amount
+Edit Budget	Change existing budget	Updated correctly
+Invalid Budget	Enter negative amount	Error, not saved
 🎯 Edge Cases
-Data Processing Edge Cases
-Empty CSV files - Should handle gracefully with appropriate error
 
-Mixed date formats - Should parse all supported formats correctly
+Data Processing
 
-Negative/Positive amounts - Should categorize appropriately (expenses vs income)
+Empty CSV, missing values, mixed date formats
 
-Special characters - Should handle in descriptions and merchant names
+Negative/positive amounts, special characters, very large numbers
 
-Very large numbers - Should format correctly in UI
+User Interaction
 
-Missing values - Should handle null/empty values appropriately
+Rapid repeated uploads, network interruptions
 
-User Interaction Edge Cases
-Rapid repeated uploads - Should handle gracefully without race conditions
+Browser refresh during upload, very long chat questions
 
-Network interruptions - Should recover appropriately and show error states
-
-Browser refresh during upload - Should not break application state
-
-Very long chat questions - Should handle efficiently without performance issues
-
-Large file uploads - Should show progress and not freeze UI
+Large file handling with progress feedback
 
 🚀 Performance Testing
-Backend Performance
-CSV Processing: Measure time for 1000+ row files (< 5 seconds)
 
-Database Queries: Ensure indexes are used properly (< 100ms response)
+Backend
 
-API Response Times: All endpoints under 200ms for typical loads
+CSV processing (1000+ rows <5s)
 
-Concurrent Users: Handle multiple simultaneous requests without degradation
+Database queries (<100ms, proper indexing)
 
-Frontend Performance
-Bundle Size: Keep under 500KB gzipped for fast loading
+API response (<200ms typical)
 
-Render Performance: 60fps animations and smooth interactions
+Concurrent users handling
 
-Memory Usage: No memory leaks with frequent data updates
+Frontend
 
-Load Time: First contentful paint under 1 second
+Bundle size <500KB gzipped
+
+Smooth render (60fps)
+
+Memory leak prevention
+
+First contentful paint <1s
 
 🔒 Security Testing
+
 Input Validation
-CSV Injection: Prevent malicious CSV content with proper validation
 
-SQL Injection: ORM should prevent all injection attacks
-
-XSS Prevention: Sanitize all user-generated content in responses
-
-Path Traversal: Prevent file system access through uploads
+Prevent CSV injection, SQL injection, XSS, path traversal
 
 Data Protection
-Sensitive Data: No financial data leakage in error responses
 
-Session Isolation: User sessions properly separated (when implemented)
+No sensitive data leaks
 
-Error Messages: No sensitive information in error responses
+Session isolation
 
-API Security: Proper CORS configuration and input validation
+Safe error messages
+
+Proper CORS & API validation
 
 📊 Test Data
-Sample CSV Files
-valid_transactions.csv - Properly formatted test data with various categories
 
-missing_columns.csv - Missing required columns for error testing
+valid_transactions.csv: Normal cases
 
-large_file.csv - 10,000+ rows for performance testing
+missing_columns.csv: Column validation
 
-mixed_dates.csv - Multiple date formats for parsing testing
+large_file.csv: Performance test (10,000+ rows)
 
-edge_cases.csv - Negative values, special characters, edge cases
+mixed_dates.csv: Date parsing
+
+edge_cases.csv: Negative values, special characters
 
 Chat Test Scenarios
-python
+
 test_questions = [
     ("How much spent on food?", "sum_by_category"),
     ("Show top expenses", "top_expenses"),
@@ -226,73 +193,83 @@ test_questions = [
     ("What's my budget?", "budget_query"),
     ("List recent transactions", "list_transactions"),
 ]
+
 📝 Test Reporting
-Metrics to Track
-Test Coverage: >80% for critical code paths
 
-Defect Density: <1 defect per 100 lines of code
+Metrics
 
-Performance Metrics: API response times, render times, memory usage
+Coverage >80% critical paths
 
-User Acceptance: Manual testing success rate and user satisfaction
+Defect density <1/100 lines
 
-Bug Triage Process
-Priority: Critical, High, Medium, Low based on impact
+API response, render times, memory usage
 
-Reproduction Steps: Clear steps to reproduce the issue
+User acceptance & satisfaction
 
-Expected vs Actual: Document behavior differences
+Bug Triage
 
-Fix Verification: Test fixes before closure and regression testing
+Priorities: Critical, High, Medium, Low
+
+Clear reproduction steps & expected vs actual
+
+Verify fixes & regression testing
 
 🔄 Regression Testing
-Automated Regression Suite
-Critical Path Tests: Run on every commit (upload, chat, basic visualizations)
 
-Full Test Suite: Run before releases and major changes
+Automated
 
-Browser Compatibility: Test on Chrome, Firefox, Safari, Edge
+Critical path tests on every commit (upload, chat, visualizations)
 
-Mobile Responsiveness: Test on various screen sizes and devices
+Full suite before releases
 
-Manual Regression Checklist
-CSV upload with various formats and edge cases
+Cross-browser & device testing
 
-All chart types render correctly with sample data
+Manual
 
-Chat responses for key question types
+CSV upload edge cases
 
-Budget setting, editing, and alert generation
+All chart types render correctly
 
-Session management and data isolation
+Chat responses & budget alerts
 
-Error handling and user-friendly messages
-
-Performance with large datasets
-
-Mobile responsiveness and touch interactions
+Session management, error handling, large datasets
 
 🧪 User Acceptance Testing
-Test Scenarios
-First-time User: Onboarding and initial upload experience
 
-Power User: Advanced queries and data analysis workflows
+Scenarios
 
-Data Review: Monthly spending review and export needs
+First-time user onboarding
 
-Budget Planning: Setting and monitoring budgets effectively
+Power user advanced queries
+
+Monthly spending review & export
+
+Budget planning
 
 Success Criteria
-Task Completion: 95%+ of test scenarios completed successfully
 
-User Satisfaction: 4/5+ rating on ease of use and functionality
+95%+ scenario completion
 
-Performance: All operations under 2 seconds response time
+User satisfaction 4/5+
 
-Error Rate: <5% of operations result in errors or issues
+Operations <2s response
 
-🚨 Known Issues and Limitations
-Current Limitations
-No User Authentication: Single-user system only
+Error rate <5%
 
-Basic NLP: Pattern matching instead of advanced AI
+🚨 Known Issues & Limitations
+
+No authentication (single-user only)
+
+Basic NLP (pattern matching, limited AI)
+
+Limited support for very large files >50MB
+
+✅ Enhancements Made
+
+Consolidated and structured all tests by level
+
+Added performance & security focus
+
+Clear edge cases and test scenarios
+
+Streamlined reporting metrics
