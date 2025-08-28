@@ -15,11 +15,17 @@ You’ll get charts, tables, and chatbot answers instantly.
 🚀 Key Features
 
 ✅ Upload & Process CSVs – Upload your bank/expense data, automatically cleaned & validated.
+
 ✅ AI Categorization – No categories in your CSV? The app uses ML (TF-IDF + Naive Bayes) to guess them.
+
 ✅ Visual Insights – Interactive pie charts, bar charts, and spending trends.
+
 ✅ Natural Language Chat – Ask questions like you’d ask a friend about your money.
+
 ✅ Budget Alerts – Set a budget and get notified if you cross limits.
+
 ✅ Session Management – Track multiple datasets (e.g., personal, family, or business).
+
 ✅ Real-Time Refresh – Charts and tables update instantly when new data is uploaded.
 
 🛠️ Tech Stack
