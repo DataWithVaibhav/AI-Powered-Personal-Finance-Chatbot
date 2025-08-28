@@ -1,0 +1,729 @@
+date,description,amount,category
+01-01-2024,Freelance project payment,38961,Income
+01-01-2024,Books purchase,-5558,Education
+02-01-2024,Movie tickets,-5641,Entertainment
+02-01-2024,Snacks from CCD,-1774,Food
+03-01-2024,Freelance project payment,54186,Income
+04-01-2024,Monthly salary deposit,28358,Income
+04-01-2024,Petrol pump refill,-5567,Transport
+05-01-2024,Petrol pump refill,-3775,Transport
+06-01-2024,Electronics store purchase,-1861,Shopping
+06-01-2024,Amusement park,-5115,Entertainment
+07-01-2024,Monthly salary deposit,58944,Income
+08-01-2024,Snacks from CCD,-3615,Food
+08-01-2024,Clothes shopping at Mall,-1977,Shopping
+08-01-2024,Dental checkup,-3778,Health
+09-01-2024,Restaurant lunch,-1248,Food
+09-01-2024,Dental checkup,-3987,Health
+10-01-2024,Books purchase,-1744,Education
+11-01-2024,Clothes shopping at Mall,-2104,Shopping
+12-01-2024,Books purchase,-5704,Education
+13-01-2024,Professional certification,-1109,Education
+13-01-2024,Bonus received,28010,Income
+14-01-2024,Freelance project payment,40897,Income
+14-01-2024,Amazon online purchase,-2917,Shopping
+14-01-2024,Freelance project payment,31160,Income
+15-01-2024,Bonus received,19263,Income
+15-01-2024,Online course,-1843,Education
+16-01-2024,Bonus received,15208,Income
+16-01-2024,Doctor consultation,-2490,Health
+16-01-2024,Weekend getaway,-927,Entertainment
+17-01-2024,Amusement park,-2350,Entertainment
+17-01-2024,Restaurant lunch,-2535,Food
+18-01-2024,Internet bill,-3265,Bills
+18-01-2024,Grocery shopping at D-Mart,-2540,Food
+19-01-2024,Restaurant lunch,-3657,Food
+20-01-2024,Grocery shopping at D-Mart,-1890,Food
+21-01-2024,Freelance project payment,22068,Income
+22-01-2024,Dental checkup,-3396,Health
+22-01-2024,Clothes shopping at Mall,-1858,Shopping
+22-01-2024,Electricity bill,-2644,Bills
+23-01-2024,Movie tickets,-4042,Entertainment
+24-01-2024,Home appliances,-2480,Shopping
+24-01-2024,Dental checkup,-2584,Health
+24-01-2024,Weekly groceries,-2598,Food
+25-01-2024,Concert ticket,-4780,Entertainment
+25-01-2024,Clothes shopping at Mall,-389,Shopping
+25-01-2024,Books purchase,-3871,Education
+26-01-2024,Online course,-4068,Education
+27-01-2024,Weekly groceries,-398,Food
+27-01-2024,Clothes shopping at Mall,-5929,Shopping
+27-01-2024,Water bill payment,-3108,Bills
+28-01-2024,Movie tickets,-4145,Entertainment
+28-01-2024,Movie tickets,-4338,Entertainment
+28-01-2024,Doctor consultation,-4033,Health
+29-01-2024,Bowling night,-4401,Entertainment
+30-01-2024,Amusement park,-4198,Entertainment
+30-01-2024,Home decor,-5174,Shopping
+31-01-2024,Professional certification,-418,Education
+31-01-2024,Concert ticket,-4562,Entertainment
+01-02-2024,Restaurant lunch,-3227,Food
+01-02-2024,Monthly salary deposit,51549,Income
+02-02-2024,Amazon online purchase,-1324,Shopping
+02-02-2024,Freelance project payment,44465,Income
+02-02-2024,Restaurant lunch,-3462,Food
+03-02-2024,Concert ticket,-3365,Entertainment
+04-02-2024,Movie tickets,-5717,Entertainment
+05-02-2024,Mobile recharge,-2377,Bills
+05-02-2024,Rent payment,-2049,Bills
+05-02-2024,Home decor,-5635,Shopping
+06-02-2024,Weekly groceries,-2352,Food
+07-02-2024,Metro recharge,-2434,Transport
+08-02-2024,Online course,-5817,Education
+08-02-2024,Clothes shopping at Mall,-3072,Shopping
+09-02-2024,Bowling night,-1618,Entertainment
+09-02-2024,Home decor,-4638,Shopping
+09-02-2024,Freelance project payment,50041,Income
+10-02-2024,Amusement park,-2568,Entertainment
+11-02-2024,Weekend getaway,-3711,Entertainment
+11-02-2024,Furniture purchase,-235,Shopping
+11-02-2024,Bonus received,47981,Income
+12-02-2024,Dental checkup,-3416,Health
+13-02-2024,Mobile recharge,-1758,Bills
+14-02-2024,Grocery shopping at D-Mart,-1108,Food
+15-02-2024,Gym membership,-4355,Health
+16-02-2024,Bonus received,22169,Income
+16-02-2024,Doctor consultation,-5744,Health
+17-02-2024,Water bill payment,-4860,Bills
+17-02-2024,Gym membership,-5565,Health
+18-02-2024,Movie tickets,-5969,Entertainment
+18-02-2024,Movie tickets,-3854,Entertainment
+18-02-2024,Weekend getaway,-3768,Entertainment
+19-02-2024,Movie tickets,-3683,Entertainment
+19-02-2024,Freelance project payment,36851,Income
+20-02-2024,Professional certification,-2011,Education
+20-02-2024,Electronics store purchase,-1226,Shopping
+21-02-2024,Petrol pump refill,-1239,Transport
+21-02-2024,Dinner at restaurant,-2375,Food
+21-02-2024,Home appliances,-3303,Shopping
+22-02-2024,Monthly salary deposit,21262,Income
+23-02-2024,Online course,-679,Education
+23-02-2024,Taxi fare,-3610,Transport
+23-02-2024,Home appliances,-2519,Shopping
+24-02-2024,Professional certification,-3012,Education
+24-02-2024,Uber ride,-1862,Transport
+24-02-2024,Clothes shopping at Mall,-1734,Shopping
+25-02-2024,Weekly groceries,-2962,Food
+25-02-2024,Professional certification,-399,Education
+25-02-2024,Online course,-3762,Education
+26-02-2024,Freelance project payment,42121,Income
+26-02-2024,Professional certification,-5494,Education
+27-02-2024,Movie tickets,-5389,Entertainment
+27-02-2024,Taxi fare,-4177,Transport
+27-02-2024,Concert ticket,-1189,Entertainment
+28-02-2024,Restaurant lunch,-1456,Food
+28-02-2024,Internet bill,-3359,Bills
+28-02-2024,Water bill payment,-5988,Bills
+29-02-2024,Bonus received,17378,Income
+29-02-2024,Dental checkup,-2515,Health
+29-02-2024,Online course,-5667,Education
+01-03-2024,Netflix subscription,-5288,Entertainment
+01-03-2024,Water bill payment,-395,Bills
+01-03-2024,Home appliances,-4794,Shopping
+02-03-2024,Internet bill,-2503,Bills
+02-03-2024,Concert ticket,-4575,Entertainment
+03-03-2024,Electricity bill,-3709,Bills
+03-03-2024,Books purchase,-5773,Education
+03-03-2024,Lunch with friends,-3511,Food
+04-03-2024,Restaurant lunch,-3855,Food
+04-03-2024,Dental checkup,-5379,Health
+05-03-2024,Clothes shopping at Mall,-950,Shopping
+05-03-2024,Weekend getaway,-3935,Entertainment
+05-03-2024,Internet bill,-457,Bills
+06-03-2024,Furniture purchase,-2299,Shopping
+07-03-2024,Mobile recharge,-4147,Bills
+07-03-2024,Clothes shopping at Mall,-5237,Shopping
+07-03-2024,Gym membership,-5734,Health
+08-03-2024,Professional certification,-2442,Education
+09-03-2024,Uber ride,-1210,Transport
+09-03-2024,Furniture purchase,-2344,Shopping
+10-03-2024,Movie tickets,-2752,Entertainment
+10-03-2024,Rent payment,-628,Bills
+10-03-2024,Rent payment,-4566,Bills
+11-03-2024,Internet bill,-1032,Bills
+11-03-2024,Dental checkup,-1390,Health
+11-03-2024,Electronics store purchase,-5363,Shopping
+12-03-2024,Internet bill,-820,Bills
+12-03-2024,Movie tickets,-5321,Entertainment
+13-03-2024,Taxi fare,-4127,Transport
+13-03-2024,Professional certification,-3436,Education
+14-03-2024,Mobile recharge,-671,Bills
+14-03-2024,Internet bill,-5709,Bills
+14-03-2024,Weekly groceries,-2340,Food
+15-03-2024,Doctor consultation,-4125,Health
+15-03-2024,Freelance project payment,45578,Income
+16-03-2024,Freelance project payment,28699,Income
+17-03-2024,Internet bill,-783,Bills
+17-03-2024,Water bill payment,-5534,Bills
+17-03-2024,Freelance project payment,28317,Income
+18-03-2024,Freelance project payment,37751,Income
+19-03-2024,Water bill payment,-3169,Bills
+19-03-2024,Bonus received,46468,Income
+19-03-2024,Electricity bill,-598,Bills
+20-03-2024,Books purchase,-4754,Education
+21-03-2024,Dental checkup,-2542,Health
+21-03-2024,Weekend getaway,-654,Entertainment
+21-03-2024,Doctor consultation,-4679,Health
+22-03-2024,Movie tickets,-1104,Entertainment
+22-03-2024,Dinner at restaurant,-2659,Food
+23-03-2024,Mobile recharge,-840,Bills
+23-03-2024,Dental checkup,-4233,Health
+23-03-2024,Online course,-5837,Education
+24-03-2024,Taxi fare,-2219,Transport
+25-03-2024,Monthly salary deposit,34368,Income
+26-03-2024,Rent payment,-4044,Bills
+27-03-2024,Dental checkup,-3492,Health
+27-03-2024,Doctor consultation,-1009,Health
+28-03-2024,Petrol pump refill,-391,Transport
+29-03-2024,Dental checkup,-1210,Health
+29-03-2024,Gym membership,-3402,Health
+30-03-2024,Online course,-3327,Education
+30-03-2024,Uber ride,-2294,Transport
+31-03-2024,Online course,-5185,Education
+31-03-2024,Monthly salary deposit,43256,Income
+31-03-2024,Mobile recharge,-5845,Bills
+01-04-2024,Bonus received,54224,Income
+01-04-2024,Petrol pump refill,-2723,Transport
+02-04-2024,Monthly salary deposit,28594,Income
+02-04-2024,Rent payment,-2652,Bills
+02-04-2024,Restaurant lunch,-1017,Food
+03-04-2024,Rent payment,-2516,Bills
+04-04-2024,Weekly groceries,-5726,Food
+04-04-2024,Taxi fare,-5455,Transport
+05-04-2024,Metro recharge,-988,Transport
+06-04-2024,Bonus received,37746,Income
+06-04-2024,Books purchase,-5550,Education
+06-04-2024,Bonus received,16777,Income
+07-04-2024,Uber ride,-3517,Transport
+08-04-2024,Bowling night,-2678,Entertainment
+09-04-2024,Clothes shopping at Mall,-1128,Shopping
+10-04-2024,Petrol pump refill,-1533,Transport
+10-04-2024,Mobile recharge,-2424,Bills
+11-04-2024,Uber ride,-4288,Transport
+11-04-2024,Freelance project payment,56888,Income
+12-04-2024,Gym membership,-2970,Health
+12-04-2024,Metro recharge,-2807,Transport
+12-04-2024,Grocery shopping at D-Mart,-3491,Food
+13-04-2024,Bowling night,-2819,Entertainment
+13-04-2024,Gym membership,-820,Health
+14-04-2024,Concert ticket,-1730,Entertainment
+14-04-2024,Books purchase,-1277,Education
+14-04-2024,Freelance project payment,38587,Income
+15-04-2024,Bonus received,23559,Income
+15-04-2024,Electronics store purchase,-1797,Shopping
+16-04-2024,Online course,-5750,Education
+16-04-2024,Amusement park,-5099,Entertainment
+16-04-2024,Books purchase,-4108,Education
+17-04-2024,Bonus received,33789,Income
+18-04-2024,Amusement park,-2793,Entertainment
+19-04-2024,Professional certification,-4212,Education
+20-04-2024,Snacks from CCD,-1450,Food
+20-04-2024,Doctor consultation,-594,Health
+20-04-2024,Professional certification,-688,Education
+21-04-2024,Amusement park,-3409,Entertainment
+21-04-2024,Uber ride,-2358,Transport
+22-04-2024,Water bill payment,-5118,Bills
+22-04-2024,Uber ride,-2370,Transport
+23-04-2024,Snacks from CCD,-3955,Food
+24-04-2024,Freelance project payment,32152,Income
+25-04-2024,Petrol pump refill,-4317,Transport
+25-04-2024,Snacks from CCD,-1539,Food
+25-04-2024,Mobile recharge,-3553,Bills
+26-04-2024,Dental checkup,-4945,Health
+27-04-2024,Professional certification,-3085,Education
+28-04-2024,Online course,-588,Education
+29-04-2024,Water bill payment,-1493,Bills
+29-04-2024,Amazon online purchase,-3004,Shopping
+29-04-2024,Metro recharge,-4274,Transport
+30-04-2024,Dinner at restaurant,-4545,Food
+30-04-2024,Home decor,-5419,Shopping
+30-04-2024,Home decor,-4692,Shopping
+01-05-2024,Amusement park,-3144,Entertainment
+01-05-2024,Online course,-4843,Education
+01-05-2024,Dental checkup,-991,Health
+02-05-2024,Water bill payment,-5712,Bills
+03-05-2024,Doctor consultation,-4156,Health
+03-05-2024,Dinner at restaurant,-1770,Food
+03-05-2024,Home decor,-917,Shopping
+04-05-2024,Professional certification,-3616,Education
+05-05-2024,Home decor,-892,Shopping
+05-05-2024,Bowling night,-5747,Entertainment
+05-05-2024,Grocery shopping at D-Mart,-3924,Food
+06-05-2024,Home decor,-1841,Shopping
+07-05-2024,Uber ride,-1181,Transport
+07-05-2024,Taxi fare,-1706,Transport
+07-05-2024,Professional certification,-3772,Education
+08-05-2024,Monthly salary deposit,57505,Income
+08-05-2024,Books purchase,-5501,Education
+08-05-2024,Dental checkup,-5854,Health
+09-05-2024,Home decor,-3055,Shopping
+09-05-2024,Grocery shopping at D-Mart,-5729,Food
+10-05-2024,Uber ride,-1116,Transport
+11-05-2024,Weekend getaway,-4558,Entertainment
+11-05-2024,Gym membership,-1889,Health
+12-05-2024,Dental checkup,-1175,Health
+12-05-2024,Electricity bill,-3490,Bills
+12-05-2024,Professional certification,-1451,Education
+13-05-2024,Internet bill,-1674,Bills
+14-05-2024,Gym membership,-5856,Health
+15-05-2024,Mobile recharge,-4465,Bills
+15-05-2024,Freelance project payment,24373,Income
+15-05-2024,Internet bill,-2387,Bills
+16-05-2024,Movie tickets,-3825,Entertainment
+16-05-2024,Petrol pump refill,-5268,Transport
+17-05-2024,Restaurant lunch,-2986,Food
+17-05-2024,Petrol pump refill,-3679,Transport
+17-05-2024,Home appliances,-277,Shopping
+18-05-2024,Petrol pump refill,-1845,Transport
+18-05-2024,Monthly salary deposit,26064,Income
+19-05-2024,Concert ticket,-3152,Entertainment
+19-05-2024,Professional certification,-4901,Education
+19-05-2024,Monthly salary deposit,19875,Income
+20-05-2024,Gym membership,-283,Health
+20-05-2024,Amazon online purchase,-1060,Shopping
+20-05-2024,Online course,-5742,Education
+21-05-2024,Bonus received,43412,Income
+22-05-2024,Books purchase,-4793,Education
+22-05-2024,Rent payment,-4511,Bills
+23-05-2024,Amazon online purchase,-5217,Shopping
+23-05-2024,Concert ticket,-1648,Entertainment
+23-05-2024,Monthly salary deposit,26853,Income
+24-05-2024,Books purchase,-3414,Education
+24-05-2024,Internet bill,-2605,Bills
+24-05-2024,Books purchase,-3836,Education
+25-05-2024,Freelance project payment,19446,Income
+25-05-2024,Monthly salary deposit,58420,Income
+25-05-2024,Professional certification,-765,Education
+26-05-2024,Internet bill,-5870,Bills
+27-05-2024,Online course,-1843,Education
+27-05-2024,Concert ticket,-206,Entertainment
+27-05-2024,Water bill payment,-5683,Bills
+28-05-2024,Freelance project payment,19865,Income
+28-05-2024,Freelance project payment,37410,Income
+29-05-2024,Dinner at restaurant,-5174,Food
+30-05-2024,Doctor consultation,-2363,Health
+31-05-2024,Petrol pump refill,-5084,Transport
+01-06-2024,Doctor consultation,-5385,Health
+01-06-2024,Dinner at restaurant,-1416,Food
+01-06-2024,Amazon online purchase,-5573,Shopping
+02-06-2024,Concert ticket,-2320,Entertainment
+02-06-2024,Home appliances,-4403,Shopping
+02-06-2024,Restaurant lunch,-2752,Food
+03-06-2024,Professional certification,-1034,Education
+03-06-2024,Books purchase,-3134,Education
+03-06-2024,Dental checkup,-5412,Health
+04-06-2024,Petrol pump refill,-2683,Transport
+04-06-2024,Amazon online purchase,-2070,Shopping
+05-06-2024,Monthly salary deposit,51612,Income
+06-06-2024,Concert ticket,-318,Entertainment
+06-06-2024,Electricity bill,-5643,Bills
+07-06-2024,Electricity bill,-5741,Bills
+08-06-2024,Restaurant lunch,-2599,Food
+08-06-2024,Mobile recharge,-2593,Bills
+08-06-2024,Books purchase,-4391,Education
+09-06-2024,Bonus received,15885,Income
+09-06-2024,Netflix subscription,-3174,Entertainment
+10-06-2024,Taxi fare,-2889,Transport
+11-06-2024,Petrol pump refill,-5319,Transport
+11-06-2024,Amazon online purchase,-2668,Shopping
+11-06-2024,Monthly salary deposit,52290,Income
+12-06-2024,Bonus received,35368,Income
+13-06-2024,Amazon online purchase,-4089,Shopping
+14-06-2024,Rent payment,-2440,Bills
+15-06-2024,Restaurant lunch,-3908,Food
+15-06-2024,Books purchase,-5476,Education
+15-06-2024,Home decor,-1353,Shopping
+16-06-2024,Online course,-5055,Education
+16-06-2024,Weekly groceries,-5630,Food
+17-06-2024,Internet bill,-4173,Bills
+17-06-2024,Gym membership,-458,Health
+17-06-2024,Rent payment,-2316,Bills
+18-06-2024,Uber ride,-5548,Transport
+18-06-2024,Petrol pump refill,-320,Transport
+18-06-2024,Clothes shopping at Mall,-3055,Shopping
+19-06-2024,Metro recharge,-1315,Transport
+19-06-2024,Furniture purchase,-936,Shopping
+20-06-2024,Books purchase,-4640,Education
+20-06-2024,Furniture purchase,-1145,Shopping
+21-06-2024,Online course,-1395,Education
+21-06-2024,Water bill payment,-3971,Bills
+21-06-2024,Bowling night,-3804,Entertainment
+22-06-2024,Dental checkup,-1642,Health
+22-06-2024,Amusement park,-1600,Entertainment
+23-06-2024,Snacks from CCD,-1416,Food
+23-06-2024,Movie tickets,-1019,Entertainment
+23-06-2024,Freelance project payment,16847,Income
+24-06-2024,Doctor consultation,-3461,Health
+24-06-2024,Electricity bill,-841,Bills
+25-06-2024,Bowling night,-1334,Entertainment
+25-06-2024,Taxi fare,-1117,Transport
+26-06-2024,Monthly salary deposit,30374,Income
+26-06-2024,Weekend getaway,-429,Entertainment
+27-06-2024,Lunch with friends,-2511,Food
+27-06-2024,Gym membership,-4771,Health
+28-06-2024,Bowling night,-4968,Entertainment
+28-06-2024,Monthly salary deposit,23739,Income
+29-06-2024,Electronics store purchase,-205,Shopping
+29-06-2024,Books purchase,-480,Education
+29-06-2024,Concert ticket,-3292,Entertainment
+30-06-2024,Doctor consultation,-2079,Health
+30-06-2024,Bowling night,-5258,Entertainment
+01-07-2024,Concert ticket,-3379,Entertainment
+01-07-2024,Petrol pump refill,-3656,Transport
+02-07-2024,Amusement park,-3992,Entertainment
+02-07-2024,Monthly salary deposit,36888,Income
+02-07-2024,Uber ride,-5368,Transport
+03-07-2024,Gym membership,-2499,Health
+04-07-2024,Professional certification,-4149,Education
+05-07-2024,Amusement park,-3098,Entertainment
+05-07-2024,Furniture purchase,-1111,Shopping
+05-07-2024,Grocery shopping at D-Mart,-527,Food
+06-07-2024,Clothes shopping at Mall,-2713,Shopping
+07-07-2024,Dinner at restaurant,-4526,Food
+07-07-2024,Netflix subscription,-3277,Entertainment
+08-07-2024,Netflix subscription,-3663,Entertainment
+08-07-2024,Gym membership,-2664,Health
+08-07-2024,Home decor,-3867,Shopping
+09-07-2024,Weekend getaway,-5951,Entertainment
+09-07-2024,Metro recharge,-1642,Transport
+10-07-2024,Dental checkup,-2466,Health
+10-07-2024,Weekend getaway,-5563,Entertainment
+11-07-2024,Gym membership,-3011,Health
+11-07-2024,Online course,-3749,Education
+12-07-2024,Amusement park,-4153,Entertainment
+12-07-2024,Bonus received,19921,Income
+12-07-2024,Grocery shopping at D-Mart,-4209,Food
+13-07-2024,Dental checkup,-326,Health
+14-07-2024,Professional certification,-1429,Education
+15-07-2024,Amusement park,-1113,Entertainment
+15-07-2024,Doctor consultation,-4150,Health
+15-07-2024,Online course,-5506,Education
+16-07-2024,Gym membership,-1895,Health
+16-07-2024,Rent payment,-5977,Bills
+16-07-2024,Bowling night,-2175,Entertainment
+17-07-2024,Electronics store purchase,-4332,Shopping
+17-07-2024,Monthly salary deposit,34971,Income
+18-07-2024,Gym membership,-5582,Health
+19-07-2024,Water bill payment,-1004,Bills
+19-07-2024,Restaurant lunch,-3131,Food
+20-07-2024,Monthly salary deposit,51259,Income
+20-07-2024,Professional certification,-4841,Education
+21-07-2024,Concert ticket,-731,Entertainment
+21-07-2024,Petrol pump refill,-5391,Transport
+21-07-2024,Gym membership,-5741,Health
+22-07-2024,Bonus received,34247,Income
+22-07-2024,Metro recharge,-2885,Transport
+23-07-2024,Bowling night,-1291,Entertainment
+24-07-2024,Freelance project payment,35039,Income
+25-07-2024,Restaurant lunch,-5733,Food
+26-07-2024,Bonus received,33955,Income
+26-07-2024,Online course,-2940,Education
+27-07-2024,Online course,-1236,Education
+27-07-2024,Petrol pump refill,-4136,Transport
+28-07-2024,Online course,-2063,Education
+29-07-2024,Online course,-457,Education
+30-07-2024,Books purchase,-3498,Education
+30-07-2024,Uber ride,-3537,Transport
+30-07-2024,Gym membership,-894,Health
+31-07-2024,Dental checkup,-607,Health
+31-07-2024,Internet bill,-4284,Bills
+31-07-2024,Bonus received,15095,Income
+01-08-2024,Grocery shopping at D-Mart,-3706,Food
+01-08-2024,Online course,-896,Education
+01-08-2024,Taxi fare,-5502,Transport
+02-08-2024,Concert ticket,-1478,Entertainment
+02-08-2024,Electricity bill,-562,Bills
+03-08-2024,Concert ticket,-4997,Entertainment
+04-08-2024,Electricity bill,-5743,Bills
+05-08-2024,Water bill payment,-3921,Bills
+05-08-2024,Water bill payment,-3064,Bills
+05-08-2024,Monthly salary deposit,59364,Income
+06-08-2024,Restaurant lunch,-5411,Food
+06-08-2024,Freelance project payment,43451,Income
+06-08-2024,Rent payment,-5523,Bills
+07-08-2024,Mobile recharge,-3543,Bills
+07-08-2024,Amazon online purchase,-2581,Shopping
+08-08-2024,Uber ride,-1981,Transport
+09-08-2024,Water bill payment,-3958,Bills
+10-08-2024,Online course,-2822,Education
+11-08-2024,Uber ride,-4957,Transport
+11-08-2024,Furniture purchase,-408,Shopping
+12-08-2024,Dental checkup,-3211,Health
+13-08-2024,Monthly salary deposit,24409,Income
+13-08-2024,Dinner at restaurant,-5749,Food
+13-08-2024,Freelance project payment,51013,Income
+14-08-2024,Concert ticket,-5555,Entertainment
+14-08-2024,Gym membership,-252,Health
+15-08-2024,Online course,-4294,Education
+15-08-2024,Books purchase,-288,Education
+16-08-2024,Uber ride,-338,Transport
+17-08-2024,Freelance project payment,45659,Income
+17-08-2024,Amazon online purchase,-2983,Shopping
+18-08-2024,Amusement park,-4127,Entertainment
+19-08-2024,Petrol pump refill,-3651,Transport
+19-08-2024,Doctor consultation,-5437,Health
+20-08-2024,Electricity bill,-1255,Bills
+20-08-2024,Online course,-4188,Education
+21-08-2024,Doctor consultation,-959,Health
+21-08-2024,Gym membership,-4709,Health
+21-08-2024,Petrol pump refill,-1750,Transport
+22-08-2024,Weekend getaway,-674,Entertainment
+22-08-2024,Taxi fare,-4406,Transport
+23-08-2024,Petrol pump refill,-1835,Transport
+23-08-2024,Online course,-3673,Education
+24-08-2024,Weekend getaway,-4527,Entertainment
+24-08-2024,Snacks from CCD,-4515,Food
+24-08-2024,Dinner at restaurant,-3779,Food
+25-08-2024,Weekly groceries,-5025,Food
+25-08-2024,Uber ride,-2841,Transport
+25-08-2024,Metro recharge,-2208,Transport
+26-08-2024,Grocery shopping at D-Mart,-1068,Food
+26-08-2024,Amazon online purchase,-2373,Shopping
+26-08-2024,Taxi fare,-1625,Transport
+27-08-2024,Professional certification,-2426,Education
+27-08-2024,Concert ticket,-2867,Entertainment
+28-08-2024,Dental checkup,-2954,Health
+29-08-2024,Uber ride,-3520,Transport
+30-08-2024,Snacks from CCD,-1369,Food
+30-08-2024,Electricity bill,-2497,Bills
+30-08-2024,Monthly salary deposit,41532,Income
+31-08-2024,Online course,-2343,Education
+01-09-2024,Books purchase,-1758,Education
+02-09-2024,Books purchase,-3896,Education
+02-09-2024,Water bill payment,-247,Bills
+02-09-2024,Rent payment,-1085,Bills
+03-09-2024,Lunch with friends,-1829,Food
+03-09-2024,Gym membership,-4713,Health
+03-09-2024,Bonus received,39138,Income
+04-09-2024,Lunch with friends,-3036,Food
+04-09-2024,Home appliances,-4794,Shopping
+05-09-2024,Dinner at restaurant,-3086,Food
+05-09-2024,Petrol pump refill,-718,Transport
+06-09-2024,Dental checkup,-4451,Health
+06-09-2024,Freelance project payment,16005,Income
+07-09-2024,Home appliances,-5564,Shopping
+08-09-2024,Dental checkup,-3401,Health
+09-09-2024,Taxi fare,-2708,Transport
+09-09-2024,Movie tickets,-1293,Entertainment
+10-09-2024,Mobile recharge,-2897,Bills
+11-09-2024,Amusement park,-1865,Entertainment
+11-09-2024,Electricity bill,-241,Bills
+12-09-2024,Amusement park,-4181,Entertainment
+13-09-2024,Weekly groceries,-744,Food
+14-09-2024,Grocery shopping at D-Mart,-1498,Food
+14-09-2024,Rent payment,-2905,Bills
+15-09-2024,Freelance project payment,31756,Income
+16-09-2024,Bonus received,46303,Income
+16-09-2024,Home decor,-750,Shopping
+16-09-2024,Concert ticket,-5116,Entertainment
+17-09-2024,Amusement park,-3749,Entertainment
+18-09-2024,Movie tickets,-4026,Entertainment
+19-09-2024,Furniture purchase,-5004,Shopping
+19-09-2024,Electricity bill,-5646,Bills
+20-09-2024,Monthly salary deposit,44236,Income
+20-09-2024,Clothes shopping at Mall,-4875,Shopping
+20-09-2024,Doctor consultation,-670,Health
+21-09-2024,Online course,-5925,Education
+21-09-2024,Electricity bill,-4363,Bills
+21-09-2024,Books purchase,-537,Education
+22-09-2024,Books purchase,-2017,Education
+22-09-2024,Amazon online purchase,-5456,Shopping
+23-09-2024,Professional certification,-1982,Education
+23-09-2024,Weekly groceries,-2006,Food
+23-09-2024,Dental checkup,-1895,Health
+24-09-2024,Uber ride,-5216,Transport
+24-09-2024,Professional certification,-1678,Education
+24-09-2024,Weekly groceries,-431,Food
+25-09-2024,Freelance project payment,27256,Income
+26-09-2024,Furniture purchase,-3289,Shopping
+26-09-2024,Monthly salary deposit,36643,Income
+27-09-2024,Bowling night,-4518,Entertainment
+28-09-2024,Home decor,-824,Shopping
+28-09-2024,Furniture purchase,-5333,Shopping
+28-09-2024,Metro recharge,-2245,Transport
+29-09-2024,Dinner at restaurant,-4957,Food
+30-09-2024,Dinner at restaurant,-2012,Food
+30-09-2024,Freelance project payment,17720,Income
+01-10-2024,Online course,-2112,Education
+01-10-2024,Petrol pump refill,-5365,Transport
+02-10-2024,Electricity bill,-4067,Bills
+02-10-2024,Furniture purchase,-2990,Shopping
+03-10-2024,Restaurant lunch,-5681,Food
+04-10-2024,Amusement park,-2460,Entertainment
+05-10-2024,Doctor consultation,-2512,Health
+06-10-2024,Furniture purchase,-573,Shopping
+06-10-2024,Petrol pump refill,-4029,Transport
+06-10-2024,Mobile recharge,-1916,Bills
+07-10-2024,Grocery shopping at D-Mart,-448,Food
+08-10-2024,Home decor,-4863,Shopping
+08-10-2024,Internet bill,-5992,Bills
+09-10-2024,Rent payment,-1056,Bills
+09-10-2024,Metro recharge,-3988,Transport
+09-10-2024,Metro recharge,-5425,Transport
+10-10-2024,Home appliances,-2491,Shopping
+10-10-2024,Bonus received,31912,Income
+10-10-2024,Bonus received,15854,Income
+11-10-2024,Concert ticket,-1112,Entertainment
+12-10-2024,Grocery shopping at D-Mart,-4476,Food
+12-10-2024,Monthly salary deposit,53336,Income
+13-10-2024,Internet bill,-1367,Bills
+13-10-2024,Electricity bill,-5170,Bills
+14-10-2024,Dental checkup,-2252,Health
+14-10-2024,Online course,-1136,Education
+14-10-2024,Mobile recharge,-5557,Bills
+15-10-2024,Internet bill,-3013,Bills
+15-10-2024,Mobile recharge,-378,Bills
+15-10-2024,Professional certification,-1891,Education
+16-10-2024,Doctor consultation,-5453,Health
+16-10-2024,Monthly salary deposit,56598,Income
+17-10-2024,Snacks from CCD,-5590,Food
+17-10-2024,Electricity bill,-5231,Bills
+17-10-2024,Dental checkup,-4589,Health
+18-10-2024,Rent payment,-4691,Bills
+18-10-2024,Bonus received,21148,Income
+18-10-2024,Dental checkup,-5186,Health
+19-10-2024,Weekly groceries,-1816,Food
+20-10-2024,Uber ride,-1252,Transport
+20-10-2024,Books purchase,-4974,Education
+21-10-2024,Netflix subscription,-4215,Entertainment
+22-10-2024,Doctor consultation,-4327,Health
+23-10-2024,Netflix subscription,-693,Entertainment
+23-10-2024,Gym membership,-4300,Health
+23-10-2024,Bonus received,28607,Income
+24-10-2024,Clothes shopping at Mall,-809,Shopping
+24-10-2024,Freelance project payment,16561,Income
+24-10-2024,Freelance project payment,33497,Income
+25-10-2024,Weekly groceries,-1573,Food
+25-10-2024,Bowling night,-2899,Entertainment
+26-10-2024,Petrol pump refill,-5262,Transport
+26-10-2024,Books purchase,-740,Education
+27-10-2024,Lunch with friends,-4834,Food
+27-10-2024,Petrol pump refill,-5051,Transport
+28-10-2024,Netflix subscription,-827,Entertainment
+29-10-2024,Taxi fare,-3956,Transport
+30-10-2024,Bowling night,-742,Entertainment
+30-10-2024,Books purchase,-475,Education
+31-10-2024,Online course,-3041,Education
+31-10-2024,Home appliances,-226,Shopping
+01-11-2024,Professional certification,-728,Education
+02-11-2024,Concert ticket,-2759,Entertainment
+02-11-2024,Freelance project payment,42795,Income
+02-11-2024,Taxi fare,-358,Transport
+03-11-2024,Furniture purchase,-1560,Shopping
+04-11-2024,Monthly salary deposit,28648,Income
+04-11-2024,Restaurant lunch,-3302,Food
+04-11-2024,Taxi fare,-3840,Transport
+05-11-2024,Netflix subscription,-2186,Entertainment
+05-11-2024,Restaurant lunch,-2910,Food
+05-11-2024,Amazon online purchase,-2700,Shopping
+06-11-2024,Weekly groceries,-1967,Food
+07-11-2024,Electricity bill,-3707,Bills
+08-11-2024,Rent payment,-4025,Bills
+08-11-2024,Restaurant lunch,-4512,Food
+08-11-2024,Electricity bill,-727,Bills
+09-11-2024,Electronics store purchase,-5559,Shopping
+09-11-2024,Weekly groceries,-5460,Food
+09-11-2024,Electricity bill,-4501,Bills
+10-11-2024,Freelance project payment,55335,Income
+10-11-2024,Metro recharge,-5074,Transport
+10-11-2024,Internet bill,-3210,Bills
+11-11-2024,Professional certification,-2402,Education
+12-11-2024,Internet bill,-4847,Bills
+12-11-2024,Snacks from CCD,-638,Food
+12-11-2024,Water bill payment,-5656,Bills
+13-11-2024,Metro recharge,-3497,Transport
+13-11-2024,Amazon online purchase,-5508,Shopping
+13-11-2024,Clothes shopping at Mall,-3537,Shopping
+14-11-2024,Clothes shopping at Mall,-1443,Shopping
+14-11-2024,Amazon online purchase,-4413,Shopping
+14-11-2024,Books purchase,-4620,Education
+15-11-2024,Online course,-845,Education
+16-11-2024,Petrol pump refill,-4285,Transport
+17-11-2024,Books purchase,-5691,Education
+17-11-2024,Bonus received,54658,Income
+18-11-2024,Clothes shopping at Mall,-2355,Shopping
+18-11-2024,Rent payment,-1533,Bills
+19-11-2024,Metro recharge,-4052,Transport
+20-11-2024,Amusement park,-4231,Entertainment
+21-11-2024,Home appliances,-5399,Shopping
+21-11-2024,Mobile recharge,-3803,Bills
+22-11-2024,Amusement park,-2842,Entertainment
+22-11-2024,Monthly salary deposit,19381,Income
+23-11-2024,Netflix subscription,-2004,Entertainment
+24-11-2024,Dental checkup,-2827,Health
+24-11-2024,Weekly groceries,-1987,Food
+24-11-2024,Lunch with friends,-4593,Food
+25-11-2024,Water bill payment,-882,Bills
+25-11-2024,Weekly groceries,-2143,Food
+25-11-2024,Netflix subscription,-5292,Entertainment
+26-11-2024,Concert ticket,-4819,Entertainment
+26-11-2024,Doctor consultation,-4801,Health
+27-11-2024,Bonus received,35947,Income
+27-11-2024,Water bill payment,-5685,Bills
+27-11-2024,Amazon online purchase,-985,Shopping
+28-11-2024,Clothes shopping at Mall,-5814,Shopping
+28-11-2024,Petrol pump refill,-2795,Transport
+28-11-2024,Electronics store purchase,-3483,Shopping
+29-11-2024,Professional certification,-5004,Education
+29-11-2024,Electricity bill,-3559,Bills
+29-11-2024,Gym membership,-243,Health
+30-11-2024,Taxi fare,-3071,Transport
+01-12-2024,Snacks from CCD,-921,Food
+02-12-2024,Books purchase,-5341,Education
+02-12-2024,Metro recharge,-4001,Transport
+03-12-2024,Monthly salary deposit,57402,Income
+04-12-2024,Uber ride,-3316,Transport
+04-12-2024,Home appliances,-1668,Shopping
+04-12-2024,Amazon online purchase,-4639,Shopping
+05-12-2024,Weekly groceries,-4016,Food
+05-12-2024,Online course,-633,Education
+06-12-2024,Amazon online purchase,-1365,Shopping
+07-12-2024,Movie tickets,-1103,Entertainment
+07-12-2024,Freelance project payment,23140,Income
+07-12-2024,Weekly groceries,-2876,Food
+08-12-2024,Bonus received,51524,Income
+09-12-2024,Home appliances,-912,Shopping
+09-12-2024,Bonus received,35147,Income
+09-12-2024,Online course,-5878,Education
+10-12-2024,Home appliances,-990,Shopping
+10-12-2024,Doctor consultation,-2384,Health
+11-12-2024,Metro recharge,-2081,Transport
+12-12-2024,Doctor consultation,-430,Health
+12-12-2024,Snacks from CCD,-1958,Food
+12-12-2024,Rent payment,-5953,Bills
+13-12-2024,Petrol pump refill,-3529,Transport
+13-12-2024,Bonus received,53598,Income
+14-12-2024,Weekend getaway,-1678,Entertainment
+14-12-2024,Internet bill,-5712,Bills
+15-12-2024,Internet bill,-1072,Bills
+15-12-2024,Weekly groceries,-1480,Food
+15-12-2024,Freelance project payment,52304,Income
+16-12-2024,Concert ticket,-3082,Entertainment
+17-12-2024,Grocery shopping at D-Mart,-5469,Food
+17-12-2024,Bowling night,-4352,Entertainment
+18-12-2024,Weekend getaway,-3480,Entertainment
+18-12-2024,Professional certification,-2374,Education
+18-12-2024,Freelance project payment,38081,Income
+19-12-2024,Freelance project payment,52152,Income
+19-12-2024,Mobile recharge,-3500,Bills
+19-12-2024,Dinner at restaurant,-2928,Food
+20-12-2024,Metro recharge,-5009,Transport
+21-12-2024,Books purchase,-3492,Education
+22-12-2024,Gym membership,-780,Health
+23-12-2024,Bowling night,-4644,Entertainment
+23-12-2024,Rent payment,-4322,Bills
+24-12-2024,Online course,-1880,Education
+24-12-2024,Snacks from CCD,-2498,Food
+25-12-2024,Freelance project payment,49349,Income
+25-12-2024,Petrol pump refill,-4781,Transport
+25-12-2024,Internet bill,-1635,Bills
+26-12-2024,Petrol pump refill,-2883,Transport
+26-12-2024,Online course,-1510,Education
+27-12-2024,Weekly groceries,-4620,Food
+27-12-2024,Doctor consultation,-3773,Health
+28-12-2024,Amusement park,-5211,Entertainment
+28-12-2024,Monthly salary deposit,34873,Income
+29-12-2024,Petrol pump refill,-771,Transport
+29-12-2024,Water bill payment,-1476,Bills
+29-12-2024,Netflix subscription,-4659,Entertainment
+30-12-2024,Amusement park,-1479,Entertainment
