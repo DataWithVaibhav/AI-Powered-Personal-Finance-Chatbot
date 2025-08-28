@@ -38,6 +38,8 @@ flowchart TD
     A2 --> B5 --> D2
     B2 --> D3
 
+
+
 Data Flow
 1. CSV Upload & Processing
 
@@ -57,6 +59,8 @@ Transactions stored in SQLite.
 
 Frontend auto-refreshes with updated summaries and charts.
 
+
+
 2. Chat Query Processing
 
 User Query → NLP Classification → SQLAlchemy Query → Response Formatting → Frontend Display
@@ -72,6 +76,8 @@ Entity/date range extraction.
 Database query with filters.
 
 Result formatted (currency, table, text summary).
+
+
 
 3. Visualization Flow
 
@@ -111,6 +117,7 @@ TF-IDF + Naive Bayes for low-resource categorization.
 Rule-based fallback for safety.
 
 Incremental learning for accuracy improvements.
+
 
 Database Schema
 Transactions
@@ -157,3 +164,4 @@ WebSocket live updates.
 Bank API integrations for auto-sync.
 
 Predictive analytics & forecasting.
+
